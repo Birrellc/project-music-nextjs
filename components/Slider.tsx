@@ -22,7 +22,7 @@ const Slider = () => {
         spaceBetween={100}
         slidesPerView={slides}
         grabCursor={true}
-        className='w-full h-[50%] md:h-[65%] mt-[40vh] md:mt-[15vh] flex flex-col'
+        className='w-full h-[50%] md:h-[65%] mt-[20vh] md:mt-[15vh] flex flex-col'
       >
         <SwiperSlide className='flex justify-start flex-col w-fit'>
           <div className='h-[100%] flex items-end'>
@@ -42,6 +42,102 @@ const Slider = () => {
             <div className='text-5xl font-bold md:text-7xl lg:text-9xl 2xl:text-[12rem] leading-none'>
               PARIS
             </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-end flex-col-reverse w-fit'>
+          <div className='flex justify-between items-end h-[100%]'>
+            <div className='flex flex-col justify-between h-full py-1 px-2'>
+              <p className='font-bold text-3xl'>
+                <span className='text-red-700'>.</span>02
+              </p>
+            </div>
+            <div className='text-5xl font-bold md:text-7xl lg:text-9xl leading-none'>
+              LONDON
+            </div>
+          </div>
+          <div className='h-[100%] flex items-end'>
+            <Image
+              alt=''
+              src={imageTwo}
+              className='w-full md:w-[80%] h-[100%] object-contain'
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-start flex-col w-fit'>
+          <div className='h-[100%] flex items-end'>
+            <Image
+              alt=''
+              src={imageThree}
+              className='w-full md:w-[80%] h-[100%] object-contain'
+            />
+          </div>
+          <div className='flex justify-between items-end h-[100%]'>
+            <div className='flex flex-col justify-between h-full py-1 px-2'>
+              <p className='font-bold text-3xl'>
+                <span className='text-red-700'>.</span>03
+              </p>
+            </div>
+            <div className='text-5xl font-bold md:text-7xl lg:text-9xl 2xl:text-[12rem] leading-none'>
+              MILAN
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-end flex-col w-fit'>
+          <div className='flex justify-between items-end h-[100%]'>
+            <div className='flex flex-col justify-between h-full py-1 px-2'>
+              <p className='font-bold text-3xl'>
+                <span className='text-red-700'>.</span>04
+              </p>
+            </div>
+            <div className='text-5xl font-bold md:text-7xl lg:text-9xl leading-none'>
+              MADRID
+            </div>
+          </div>
+          <div className='h-[100%] flex items-end'>
+            <Image
+              alt=''
+              src={imageFour}
+              className='w-full md:w-[80%] h-[100%] object-contain'
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-start flex-col w-fit'>
+          <div className='h-[100%] flex items-end'>
+            <Image
+              alt=''
+              src={imageFive}
+              className='w-full md:w-[80%] h-[100%] object-contain'
+            />
+          </div>
+          <div className='flex justify-between items-end h-[100%]'>
+            <div className='flex flex-col justify-between h-full py-1 px-2'>
+              <p className='font-bold text-3xl'>
+                <span className='text-red-700'>.</span>05
+              </p>
+            </div>
+            <div className='text-5xl font-bold md:text-7xl lg:text-9xl 2xl:text-[12rem] leading-none'>
+              TOKYO
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='flex justify-end flex-col w-fit'>
+          <div className='flex justify-between items-end h-[100%]'>
+            <div className='flex flex-col justify-between h-full py-1 px-2'>
+              <p className='font-bold text-3xl'>
+                <span className='text-red-700'>.</span>06
+              </p>
+              <p>(02)</p>
+            </div>
+            <div className='text-5xl font-bold md:text-7xl lg:text-9xl leading-none'>
+              BERLIN
+            </div>
+          </div>
+          <div className='h-[100%] flex items-end'>
+            <Image
+              alt=''
+              src={imageSix}
+              className='w-full md:w-[80%] h-[100%] object-contain'
+            />
           </div>
         </SwiperSlide>
       </Swiper>
