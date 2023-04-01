@@ -1,3 +1,4 @@
+import About from '@/components/About';
 import Header from '@/components/Header';
 import Slider from '@/components/Slider';
 import Head from 'next/head';
@@ -15,6 +16,7 @@ export default function Home() {
       <div className='uppercase text-[#010101]'>
         <Header />
         <Slider />
+        <About />
       </div>
     </>
   );
