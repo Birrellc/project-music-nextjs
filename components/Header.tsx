@@ -39,9 +39,7 @@ const Header = () => {
           id='header'
           className='flex items-start justify-between w-[100%] h-fit'
         >
-          <div className='mx[-5px] font-semibold text-[20px] leading-none'>
-            CB
-          </div>
+          <div className='mx[5px] font-semibold text-[30px]'>CB</div>
           <div className='mx-1 md:block hidden font-bold text-[30px]'>
             ABOUT
           </div>
