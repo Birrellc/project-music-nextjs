@@ -1,6 +1,7 @@
 import About from '@/components/About';
 import Header from '@/components/Header';
 import Slider from '@/components/Slider';
+import Brands from '@/components/Brands';
 import Head from 'next/head';
 import { useEffect, useRef, useState } from 'react';
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Header />
         <Slider />
         <About />
+        <Brands />
       </div>
     </>
   );

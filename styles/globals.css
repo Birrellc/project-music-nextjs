@@ -16,3 +16,8 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.brands p {
+  padding: 1.5rem;
+  justify-content: center;
+}
