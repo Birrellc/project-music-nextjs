@@ -19,6 +19,7 @@ const Header = () => {
             />
           </div>
         </div>
+
         <div className='mx-2 my-10 space-y-1 text-white'>
           <span className='overflow-hidden block'>
             <div className='font-bold text-[30px]'>ABOUT</div>
@@ -34,7 +35,8 @@ const Header = () => {
           </span>
         </div>
       </nav>
-      <nav className='absolute bg-white top-0 py-[5px] h-[20vh] w-[100%] flex justify-between flex-col text-black'>
+
+      <nav className='absolute bg-white top-0 py-[5px] h-[10vh] w-[100%] flex justify-between flex-col text-black border-black border-b-2'>
         <div
           id='header'
           className='flex items-start justify-between w-[100%] h-fit'
