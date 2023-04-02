@@ -43,7 +43,7 @@ const Slider = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='flex justify-end flex-col-reverse w-fit'>
+        <SwiperSlide className='flex bg-black justify-end flex-col-reverse w-fit'>
           <div className='flex justify-between items-end md:items-start h-[100%]'>
             <div className='flex flex-col justify-between h-full bg-black text-white py-1 px-2'>
               <p className='font-bold text-3xl'>
@@ -81,7 +81,7 @@ const Slider = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='flex justify-end flex-col w-fit'>
+        <SwiperSlide className='flex justify-end flex-col w-fit bg-black'>
           <div className='flex justify-between items-end md:items-start h-[100%]'>
             <div className='flex flex-col justify-between h-full py-1 px-2 bg-black text-white'>
               <p className='font-bold text-3xl'>
@@ -119,7 +119,7 @@ const Slider = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='flex justify-end flex-col w-fit'>
+        <SwiperSlide className='flex justify-end flex-col w-fit bg-black'>
           <div className='flex justify-between items-end md:items-start h-[100%]'>
             <div className='flex flex-col justify-between h-full py-1 px-2 bg-black text-white'>
               <p className='font-bold text-3xl'>
