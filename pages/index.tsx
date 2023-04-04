@@ -2,8 +2,10 @@ import About from '@/components/About';
 import Header from '@/components/Header';
 import Slider from '@/components/Slider';
 import Brands from '@/components/Brands';
+import Footer from '@/components/Footer';
 import Head from 'next/head';
 import { useEffect, useRef, useState } from 'react';
+import { Office } from '@/components/Office';
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
         <Slider />
         <About />
         <Brands />
+        <Office />
+        <Footer />
       </div>
     </>
   );
