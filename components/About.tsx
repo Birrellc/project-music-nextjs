@@ -4,7 +4,7 @@ import theAgency from '../assets/theAgency.png';
 
 const About = () => {
   return (
-    <div className='relative w-full my-12 py-5 h-[100vh] '>
+    <div className='relative w-full my-12 py-5 h-[100vh] border-t-2 border-black'>
       <div className='w-full my-28 flex justify-center'>
         <Image
           src={theAgency}
