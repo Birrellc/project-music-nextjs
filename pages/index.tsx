@@ -1,5 +1,5 @@
 import About from '@/components/About';
-import Header from '@/components/Header';
+import Navbar from '@/components/Navbar';
 import Slider from '@/components/Slider';
 import Brands from '@/components/Brands';
 import Footer from '@/components/Footer';
@@ -17,7 +17,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='uppercase text-[#010101]'>
-        <Header />
+        <Navbar />
         <Slider />
         <About />
         <Brands />
